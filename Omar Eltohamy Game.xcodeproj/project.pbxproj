@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A5CF6CDE1FAFB81F000A1D8C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CF6CDD1FAFB81F000A1D8C /* AppDelegate.swift */; };
+		A5CF6CE01FAFB81F000A1D8C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CF6CDF1FAFB81F000A1D8C /* ViewController.swift */; };
+		A5CF6CE31FAFB81F000A1D8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5CF6CE11FAFB81F000A1D8C /* Main.storyboard */; };
+		A5CF6CE51FAFB81F000A1D8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5CF6CE41FAFB81F000A1D8C /* Assets.xcassets */; };
+		A5CF6CE81FAFB81F000A1D8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5CF6CE61FAFB81F000A1D8C /* LaunchScreen.storyboard */; };
+		A5CF6CF31FAFB81F000A1D8C /* Omar_Eltohamy_GameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CF6CF21FAFB81F000A1D8C /* Omar_Eltohamy_GameTests.swift */; };
+		A5CF6CFE1FAFB81F000A1D8C /* Omar_Eltohamy_GameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CF6CFD1FAFB81F000A1D8C /* Omar_Eltohamy_GameUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A5CF6CEF1FAFB81F000A1D8C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5CF6CD21FAFB81F000A1D8C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5CF6CD91FAFB81F000A1D8C;
+			remoteInfo = "Omar Eltohamy Game";
+		};
+		A5CF6CFA1FAFB81F000A1D8C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5CF6CD21FAFB81F000A1D8C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5CF6CD91FAFB81F000A1D8C;
+			remoteInfo = "Omar Eltohamy Game";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A5CF6CDA1FAFB81F000A1D8C /* Omar Eltohamy Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Omar Eltohamy Game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5CF6CDD1FAFB81F000A1D8C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A5CF6CDF1FAFB81F000A1D8C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A5CF6CE21FAFB81F000A1D8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A5CF6CE41FAFB81F000A1D8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A5CF6CE71FAFB81F000A1D8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A5CF6CE91FAFB81F000A1D8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5CF6CEE1FAFB81F000A1D8C /* Omar Eltohamy GameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Omar Eltohamy GameTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5CF6CF21FAFB81F000A1D8C /* Omar_Eltohamy_GameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Omar_Eltohamy_GameTests.swift; sourceTree = "<group>"; };
+		A5CF6CF41FAFB81F000A1D8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5CF6CF91FAFB81F000A1D8C /* Omar Eltohamy GameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Omar Eltohamy GameUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5CF6CFD1FAFB81F000A1D8C /* Omar_Eltohamy_GameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Omar_Eltohamy_GameUITests.swift; sourceTree = "<group>"; };
+		A5CF6CFF1FAFB81F000A1D8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A5CF6CD71FAFB81F000A1D8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5CF6CEB1FAFB81F000A1D8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5CF6CF61FAFB81F000A1D8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A5CF6CD11FAFB81F000A1D8C = {
+			isa = PBXGroup;
+			children = (
+				A5CF6CDC1FAFB81F000A1D8C /* Omar Eltohamy Game */,
+				A5CF6CF11FAFB81F000A1D8C /* Omar Eltohamy GameTests */,
+				A5CF6CFC1FAFB81F000A1D8C /* Omar Eltohamy GameUITests */,
+				A5CF6CDB1FAFB81F000A1D8C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A5CF6CDB1FAFB81F000A1D8C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5CF6CDA1FAFB81F000A1D8C /* Omar Eltohamy Game.app */,
+				A5CF6CEE1FAFB81F000A1D8C /* Omar Eltohamy GameTests.xctest */,
+				A5CF6CF91FAFB81F000A1D8C /* Omar Eltohamy GameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5CF6CDC1FAFB81F000A1D8C /* Omar Eltohamy Game */ = {
+			isa = PBXGroup;
+			children = (
+				A5CF6CDD1FAFB81F000A1D8C /* AppDelegate.swift */,
+				A5CF6CDF1FAFB81F000A1D8C /* ViewController.swift */,
+				A5CF6CE11FAFB81F000A1D8C /* Main.storyboard */,
+				A5CF6CE41FAFB81F000A1D8C /* Assets.xcassets */,
+				A5CF6CE61FAFB81F000A1D8C /* LaunchScreen.storyboard */,
+				A5CF6CE91FAFB81F000A1D8C /* Info.plist */,
+			);
+			path = "Omar Eltohamy Game";
+			sourceTree = "<group>";
+		};
+		A5CF6CF11FAFB81F000A1D8C /* Omar Eltohamy GameTests */ = {
+			isa = PBXGroup;
+			children = (
+				A5CF6CF21FAFB81F000A1D8C /* Omar_Eltohamy_GameTests.swift */,
+				A5CF6CF41FAFB81F000A1D8C /* Info.plist */,
+			);
+			path = "Omar Eltohamy GameTests";
+			sourceTree = "<group>";
+		};
+		A5CF6CFC1FAFB81F000A1D8C /* Omar Eltohamy GameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A5CF6CFD1FAFB81F000A1D8C /* Omar_Eltohamy_GameUITests.swift */,
+				A5CF6CFF1FAFB81F000A1D8C /* Info.plist */,
+			);
+			path = "Omar Eltohamy GameUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A5CF6CD91FAFB81F000A1D8C /* Omar Eltohamy Game */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5CF6D021FAFB81F000A1D8C /* Build configuration list for PBXNativeTarget "Omar Eltohamy Game" */;
+			buildPhases = (
+				A5CF6CD61FAFB81F000A1D8C /* Sources */,
+				A5CF6CD71FAFB81F000A1D8C /* Frameworks */,
+				A5CF6CD81FAFB81F000A1D8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Omar Eltohamy Game";
+			productName = "Omar Eltohamy Game";
+			productReference = A5CF6CDA1FAFB81F000A1D8C /* Omar Eltohamy Game.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A5CF6CED1FAFB81F000A1D8C /* Omar Eltohamy GameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5CF6D051FAFB81F000A1D8C /* Build configuration list for PBXNativeTarget "Omar Eltohamy GameTests" */;
+			buildPhases = (
+				A5CF6CEA1FAFB81F000A1D8C /* Sources */,
+				A5CF6CEB1FAFB81F000A1D8C /* Frameworks */,
+				A5CF6CEC1FAFB81F000A1D8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A5CF6CF01FAFB81F000A1D8C /* PBXTargetDependency */,
+			);
+			name = "Omar Eltohamy GameTests";
+			productName = "Omar Eltohamy GameTests";
+			productReference = A5CF6CEE1FAFB81F000A1D8C /* Omar Eltohamy GameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A5CF6CF81FAFB81F000A1D8C /* Omar Eltohamy GameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5CF6D081FAFB81F000A1D8C /* Build configuration list for PBXNativeTarget "Omar Eltohamy GameUITests" */;
+			buildPhases = (
+				A5CF6CF51FAFB81F000A1D8C /* Sources */,
+				A5CF6CF61FAFB81F000A1D8C /* Frameworks */,
+				A5CF6CF71FAFB81F000A1D8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A5CF6CFB1FAFB81F000A1D8C /* PBXTargetDependency */,
+			);
+			name = "Omar Eltohamy GameUITests";
+			productName = "Omar Eltohamy GameUITests";
+			productReference = A5CF6CF91FAFB81F000A1D8C /* Omar Eltohamy GameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A5CF6CD21FAFB81F000A1D8C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = oeltoham;
+				TargetAttributes = {
+					A5CF6CD91FAFB81F000A1D8C = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = UD843FX697;
+						ProvisioningStyle = Automatic;
+					};
+					A5CF6CED1FAFB81F000A1D8C = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = UD843FX697;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A5CF6CD91FAFB81F000A1D8C;
+					};
+					A5CF6CF81FAFB81F000A1D8C = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = UD843FX697;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A5CF6CD91FAFB81F000A1D8C;
+					};
+				};
+			};
+			buildConfigurationList = A5CF6CD51FAFB81F000A1D8C /* Build configuration list for PBXProject "Omar Eltohamy Game" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A5CF6CD11FAFB81F000A1D8C;
+			productRefGroup = A5CF6CDB1FAFB81F000A1D8C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A5CF6CD91FAFB81F000A1D8C /* Omar Eltohamy Game */,
+				A5CF6CED1FAFB81F000A1D8C /* Omar Eltohamy GameTests */,
+				A5CF6CF81FAFB81F000A1D8C /* Omar Eltohamy GameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A5CF6CD81FAFB81F000A1D8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5CF6CE81FAFB81F000A1D8C /* LaunchScreen.storyboard in Resources */,
+				A5CF6CE51FAFB81F000A1D8C /* Assets.xcassets in Resources */,
+				A5CF6CE31FAFB81F000A1D8C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5CF6CEC1FAFB81F000A1D8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5CF6CF71FAFB81F000A1D8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A5CF6CD61FAFB81F000A1D8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5CF6CE01FAFB81F000A1D8C /* ViewController.swift in Sources */,
+				A5CF6CDE1FAFB81F000A1D8C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5CF6CEA1FAFB81F000A1D8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5CF6CF31FAFB81F000A1D8C /* Omar_Eltohamy_GameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5CF6CF51FAFB81F000A1D8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5CF6CFE1FAFB81F000A1D8C /* Omar_Eltohamy_GameUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A5CF6CF01FAFB81F000A1D8C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5CF6CD91FAFB81F000A1D8C /* Omar Eltohamy Game */;
+			targetProxy = A5CF6CEF1FAFB81F000A1D8C /* PBXContainerItemProxy */;
+		};
+		A5CF6CFB1FAFB81F000A1D8C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5CF6CD91FAFB81F000A1D8C /* Omar Eltohamy Game */;
+			targetProxy = A5CF6CFA1FAFB81F000A1D8C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A5CF6CE11FAFB81F000A1D8C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5CF6CE21FAFB81F000A1D8C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A5CF6CE61FAFB81F000A1D8C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5CF6CE71FAFB81F000A1D8C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A5CF6D001FAFB81F000A1D8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A5CF6D011FAFB81F000A1D8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A5CF6D031FAFB81F000A1D8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UD843FX697;
+				INFOPLIST_FILE = "Omar Eltohamy Game/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.oeltoham.Omar-Eltohamy-Game";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A5CF6D041FAFB81F000A1D8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UD843FX697;
+				INFOPLIST_FILE = "Omar Eltohamy Game/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.oeltoham.Omar-Eltohamy-Game";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		A5CF6D061FAFB81F000A1D8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = UD843FX697;
+				INFOPLIST_FILE = "Omar Eltohamy GameTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.oeltoham.Omar-Eltohamy-GameTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Omar Eltohamy Game.app/Omar Eltohamy Game";
+			};
+			name = Debug;
+		};
+		A5CF6D071FAFB81F000A1D8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = UD843FX697;
+				INFOPLIST_FILE = "Omar Eltohamy GameTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.oeltoham.Omar-Eltohamy-GameTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Omar Eltohamy Game.app/Omar Eltohamy Game";
+			};
+			name = Release;
+		};
+		A5CF6D091FAFB81F000A1D8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = UD843FX697;
+				INFOPLIST_FILE = "Omar Eltohamy GameUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.oeltoham.Omar-Eltohamy-GameUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Omar Eltohamy Game";
+			};
+			name = Debug;
+		};
+		A5CF6D0A1FAFB81F000A1D8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = UD843FX697;
+				INFOPLIST_FILE = "Omar Eltohamy GameUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.oeltoham.Omar-Eltohamy-GameUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Omar Eltohamy Game";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A5CF6CD51FAFB81F000A1D8C /* Build configuration list for PBXProject "Omar Eltohamy Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5CF6D001FAFB81F000A1D8C /* Debug */,
+				A5CF6D011FAFB81F000A1D8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5CF6D021FAFB81F000A1D8C /* Build configuration list for PBXNativeTarget "Omar Eltohamy Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5CF6D031FAFB81F000A1D8C /* Debug */,
+				A5CF6D041FAFB81F000A1D8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A5CF6D051FAFB81F000A1D8C /* Build configuration list for PBXNativeTarget "Omar Eltohamy GameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5CF6D061FAFB81F000A1D8C /* Debug */,
+				A5CF6D071FAFB81F000A1D8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A5CF6D081FAFB81F000A1D8C /* Build configuration list for PBXNativeTarget "Omar Eltohamy GameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5CF6D091FAFB81F000A1D8C /* Debug */,
+				A5CF6D0A1FAFB81F000A1D8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A5CF6CD21FAFB81F000A1D8C /* Project object */;
+}
