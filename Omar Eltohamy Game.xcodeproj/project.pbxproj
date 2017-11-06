@@ -9,11 +9,13 @@
 /* Begin PBXBuildFile section */
 		A5CF6CDE1FAFB81F000A1D8C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CF6CDD1FAFB81F000A1D8C /* AppDelegate.swift */; };
 		A5CF6CE01FAFB81F000A1D8C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CF6CDF1FAFB81F000A1D8C /* ViewController.swift */; };
-		A5CF6CE31FAFB81F000A1D8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5CF6CE11FAFB81F000A1D8C /* Main.storyboard */; };
 		A5CF6CE51FAFB81F000A1D8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5CF6CE41FAFB81F000A1D8C /* Assets.xcassets */; };
 		A5CF6CE81FAFB81F000A1D8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5CF6CE61FAFB81F000A1D8C /* LaunchScreen.storyboard */; };
 		A5CF6CF31FAFB81F000A1D8C /* Omar_Eltohamy_GameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CF6CF21FAFB81F000A1D8C /* Omar_Eltohamy_GameTests.swift */; };
 		A5CF6CFE1FAFB81F000A1D8C /* Omar_Eltohamy_GameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CF6CFD1FAFB81F000A1D8C /* Omar_Eltohamy_GameUITests.swift */; };
+		A5CF6D0D1FAFBD14000A1D8C /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CF6D0B1FAFBD14000A1D8C /* MainViewController.swift */; };
+		A5CF6D0E1FAFBD14000A1D8C /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5CF6D0C1FAFBD14000A1D8C /* MainViewController.xib */; };
+		A5CF6D101FAFF468000A1D8C /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = A5CF6D0F1FAFF468000A1D8C /* Podfile */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +39,6 @@
 		A5CF6CDA1FAFB81F000A1D8C /* Omar Eltohamy Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Omar Eltohamy Game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5CF6CDD1FAFB81F000A1D8C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A5CF6CDF1FAFB81F000A1D8C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A5CF6CE21FAFB81F000A1D8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A5CF6CE41FAFB81F000A1D8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A5CF6CE71FAFB81F000A1D8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A5CF6CE91FAFB81F000A1D8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +48,9 @@
 		A5CF6CF91FAFB81F000A1D8C /* Omar Eltohamy GameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Omar Eltohamy GameUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5CF6CFD1FAFB81F000A1D8C /* Omar_Eltohamy_GameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Omar_Eltohamy_GameUITests.swift; sourceTree = "<group>"; };
 		A5CF6CFF1FAFB81F000A1D8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5CF6D0B1FAFBD14000A1D8C /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		A5CF6D0C1FAFBD14000A1D8C /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		A5CF6D0F1FAFF468000A1D8C /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,7 @@
 		A5CF6CD11FAFB81F000A1D8C = {
 			isa = PBXGroup;
 			children = (
+				A5CF6D0F1FAFF468000A1D8C /* Podfile */,
 				A5CF6CDC1FAFB81F000A1D8C /* Omar Eltohamy Game */,
 				A5CF6CF11FAFB81F000A1D8C /* Omar Eltohamy GameTests */,
 				A5CF6CFC1FAFB81F000A1D8C /* Omar Eltohamy GameUITests */,
@@ -99,10 +104,11 @@
 			children = (
 				A5CF6CDD1FAFB81F000A1D8C /* AppDelegate.swift */,
 				A5CF6CDF1FAFB81F000A1D8C /* ViewController.swift */,
-				A5CF6CE11FAFB81F000A1D8C /* Main.storyboard */,
 				A5CF6CE41FAFB81F000A1D8C /* Assets.xcassets */,
 				A5CF6CE61FAFB81F000A1D8C /* LaunchScreen.storyboard */,
 				A5CF6CE91FAFB81F000A1D8C /* Info.plist */,
+				A5CF6D0B1FAFBD14000A1D8C /* MainViewController.swift */,
+				A5CF6D0C1FAFBD14000A1D8C /* MainViewController.xib */,
 			);
 			path = "Omar Eltohamy Game";
 			sourceTree = "<group>";
@@ -236,8 +242,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A5CF6CE81FAFB81F000A1D8C /* LaunchScreen.storyboard in Resources */,
+				A5CF6D0E1FAFBD14000A1D8C /* MainViewController.xib in Resources */,
+				A5CF6D101FAFF468000A1D8C /* Podfile in Resources */,
 				A5CF6CE51FAFB81F000A1D8C /* Assets.xcassets in Resources */,
-				A5CF6CE31FAFB81F000A1D8C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,6 +269,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5CF6D0D1FAFBD14000A1D8C /* MainViewController.swift in Sources */,
 				A5CF6CE01FAFB81F000A1D8C /* ViewController.swift in Sources */,
 				A5CF6CDE1FAFB81F000A1D8C /* AppDelegate.swift in Sources */,
 			);
@@ -299,14 +307,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		A5CF6CE11FAFB81F000A1D8C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A5CF6CE21FAFB81F000A1D8C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A5CF6CE61FAFB81F000A1D8C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
